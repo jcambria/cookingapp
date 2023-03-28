@@ -82,7 +82,6 @@ function Recipe() {
     </div>
     
   );
-  <button>View Favorites</button>
   
 }
 

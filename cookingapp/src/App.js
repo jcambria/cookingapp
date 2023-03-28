@@ -1,18 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import LoginPage from './Login';
+import React from 'react';
+import Recipe from './Recipe';
 
 function App() {
-
   return (
-    
-    <div className="App">
-   <LoginPage />
+    <div>
+      <h1>MEALS FOR DADS</h1>
+      <button>View Favorites</button>
+      <Recipe />
     </div>
-    
   );
-
-  
 }
 
 export default App;

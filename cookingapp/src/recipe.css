@@ -64,7 +64,14 @@ body {
     
   }
 
+  #foodimg{
+    display: flex;
+    height: 350px;
+    width: 300px;
+  }
+
   #like{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
 
   }

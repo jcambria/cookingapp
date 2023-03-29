@@ -2,6 +2,7 @@ import React from 'react';
 import Recipe from './Recipe';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* <h1>MEALS FOR DADS</h1> */}
       {/* <button>View Favorites</button> */}
       <Navbar />
+      <Header />
       {/* <Recipe /> */}
     </div>
   );
